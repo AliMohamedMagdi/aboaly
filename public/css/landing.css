@@ -59,7 +59,7 @@ abbr[title] {
     text-decoration: underline dotted;
 }
 
-b,
+background-color: #008080;}
 strong {
     font-weight: inherit;
 }
@@ -294,8 +294,8 @@ html {
 }
 
 body {
-    /* background: #16171b; */
-    background: linear-gradient(to left, #171717, #000000);
+       background-color: #008080;}
+;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
