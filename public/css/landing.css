@@ -8,6 +8,8 @@ html {
 
 body {
     margin: 0;
+    background-color: teal;
+	
 }
 
 article,
@@ -1100,7 +1102,6 @@ textarea.form-input {
 
 .form-select {
     padding-right: 46px;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%2011.4L2.6%206%204%204.6l4%204%204-4L13.4%206%208%2011.4z%22%20fill%3D%22%23F9FAFF%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
     background-position: right 15px center;
     background-repeat: no-repeat;
     background-size: 16px 16px;
