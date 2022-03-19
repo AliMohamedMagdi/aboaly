@@ -140,6 +140,10 @@ app.use((err, req, res, next) => {
 
 // all start from here
 app.get(['/'], (req, res) => {
+    res.sendFile(view.login);
+});
+
+app.get(['/landing'], (req, res) => {
     res.sendFile(view.landing);
 });
 
