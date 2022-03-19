@@ -140,7 +140,7 @@ app.use((err, req, res, next) => {
 
 // all start from here
 app.get(['/'], (req, res) => {
-    res.sendFile(view.login);
+    res.sendFile(login);
 });
 
 app.get(['/landing'], (req, res) => {
